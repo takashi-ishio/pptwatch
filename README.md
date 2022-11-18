@@ -25,6 +25,12 @@ Each line shows the following information.
 
 As the result ignores milliseconds, the total time may be slightly different from the time spent for each slide.
 
+This tool may fail to connect to PowerPoint if multiple instances of PowerPoint exists.
+Please confirm that the tool can measure the time by starting a presentation once before your actual practice.
+
+The time measurement is finished if you terminate your presentation using an ESC key.
+If you would like to include a demonstration of another application, please use ALT+TAB to switch to the application.
+
 
 # PptWatch (The same explanation as above, in Japanese)
 
@@ -40,8 +46,6 @@ Windows と PowerPoint のバージョン間の互換性の高さのおかげで
 
 実行ファイルと Power Point を起動してスライドショーを開始してください。
 このツールはスライドショー開始時点から時間計測を開始し、スライドを切り替えた時間を記録します。
-スライドショーを開始した後にツールを起動すると、合計時間が記録されませんのでご注意ください。
-
 スライドショーが終了した時点で、スライドショー全体の時間と、各スライドで費やした時間が集計され、一覧として出力されます．
 
 出力される結果はタブ区切りになっており、各行は次のように構成されています。
@@ -49,3 +53,9 @@ Windows と PowerPoint のバージョン間の互換性の高さのおかげで
 > スライド番号[空白]スライドの秒数[空白]分・秒での表現[空白]１枚目からの累積時間
 
 集計結果の表示ではミリ秒単位の情報は落としていますので、スライドごとの時間と累積時間は微妙に異なる場合があります。
+
+
+複数の Power Point ファイルが同時に開かれている場合などに、PowerPoint への接続に失敗することがあるようです。
+起動後、スライドショーを開始、終了して、結果が出力されていることを確認してから実際の発表練習などを開始してください。
+
+スライドショーをESCで終了するとその時点で計測が停止してしまいます。別アプリケーションのデモなどをはさんでも時間計測を継続したい場合は、ALT+TAB を使ってプレゼンテーションを終了せずにデモを行ってください。
