@@ -1,11 +1,14 @@
 # PptWatch
 
-This is a tool to monitor a PowerPoint presentation and measures the time spent for each slide.
-The tool is designed for a presentation practice. 
-For example, you may revise a slide if you spend too much time on the slide compared with other slides.
+This is a tool to monitor a PowerPoint presentation and measures the time spent on each slide.
+1 to 2 slides per minute is a recommended style.  
+If you spend too much time (e.g. two minutes) on a slide, you can break the slide into multiple slides.
+If you spend only a few seconds on a slide, the slide may be merged to another slide.
 
 The source code is written using Borland Delphi 7 on Windows XP and Office 2003.
 Thank to the high compatibility of Windows and PowerPoint versions, the binary works for various versions of PowerPoint, e.g. PowerPoint 2019 on Windows 11.
+
+![Screenshot](screenshot.png)
 
 ## Uasge
 
@@ -26,8 +29,9 @@ As the result ignores milliseconds, the total time may be slightly different fro
 # PptWatch (The same explanation as above, in Japanese)
 
 PowerPoint で実行されたプレゼンテーションを観測し、スライドごとの使用時間を計測するツールです。
-このツールは発表練習用に作られています。
-たとえば、他のスライドに比べて長い時間を費やしているスライドを更新することができます。
+1分あたりスライド1から2枚程度というのが推奨されるスタイルの1つです。
+長時間（たとえば2分間）スライドは、複数に分割することができます。
+また、数秒しか費やしていないスライドは、他のスライドとまとめることができます。
 
 Borland Delphi 7 を使って Windows XP, Office 2003 向けに開発したものです。
 Windows と PowerPoint のバージョン間の互換性の高さのおかげで、多くのバージョン、たとえば Windows 11 上で動く Office 2019 に対しても動作します。
