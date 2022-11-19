@@ -32,7 +32,7 @@ The time measurement is finished if you terminate your presentation using an ESC
 If you would like to include a demonstration of another application, please use ALT+TAB to switch to the application.
 
 
-# PptWatch (The same explanation as above, in Japanese)
+# PptWatch (The same explanation in Japanese)
 
 PowerPoint で実行されたプレゼンテーションを観測し、スライドごとの使用時間を計測するツールです。
 1分あたりスライド1から2枚程度というのが推奨されるスタイルの1つです。
