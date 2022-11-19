@@ -1,5 +1,7 @@
 # PptWatch
 
+[Japanese explanation is below (日本語版は下にあります)](#pptwatch-the-same-explanation-in-japanese)
+
 This is a tool to monitor a PowerPoint presentation and measures the time spent on each slide.
 1 to 2 slides per minute is a recommended style.  
 If you spend too much time (e.g. two minutes) on a slide, you can break the slide into multiple slides.
@@ -41,6 +43,8 @@ PowerPoint で実行されたプレゼンテーションを観測し、スライ
 
 Borland Delphi 7 を使って Windows XP, Office 2003 向けに開発したものです。
 Windows と PowerPoint のバージョン間の互換性の高さのおかげで、多くのバージョン、たとえば Windows 11 上で動く Office 2019 に対しても動作します。
+
+![Screenshot](screenshot.png)
 
 ## Usage 
 
