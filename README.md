@@ -21,7 +21,7 @@ When a presentation is terminated, the tool shows the total time and time spent 
 The result is a table of tab-separated values.
 Each line shows the following information.
 
-> Slide Number[TAB]The number of seconds spent for the slide[TAB]The time represented using minute and second[TAB]The accumulated time from the beginning
+> Slide Number[TAB]The number of seconds spent on the slide[TAB]The time in the mm:ss format[TAB]The accumulated time from the beginning
 
 As the result ignores milliseconds, the total time may be slightly different from the time spent for each slide.
 
